@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eee;
+    font-family: Arial;
+}
+
+ul{
+    background-color:black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.navbar li:hover{
+    background-color:rgb(26, 207, 26);
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.main-img{
+    height: 400px;
+    background-image: url('../images/ftt1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+ 
+}
+.container-header{
+    
+    margin-top: 30px;
+    
+}
+
+.section-header{
+    color: rgb(73, 72, 72);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+}
+    
+.row{
+    background-color:rgb(248, 248, 248);
+    display: flex;
+    padding-top: 5px;
+    margin: 30px;
+}
+.row p{
+    padding: 80px 20px;
+    font-size: 20px;
+}
+.row img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+.row img:hover{
+    cursor: pointer;
+    width: 350px;
+    height: 350px;
+}
+.nos-espace{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.nos-espace h1{
+    color: rgb(73, 72, 72);
+}
+.messages{
+    display: flex;
+    margin-top: 25px;
+}
+.messages .message {
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 250px;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.message:hover{
+    box-shadow: 3px 3px 10px rgb(7, 247, 7);
+    transform: translateX(3px);
+    background-color: rgb(248, 248, 248);
+}
+
+
+.messages .message h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(73, 72, 72);
+}
+.messages .message img{
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+/*start contact*/
+.contact h1{
+    color:  rgb(73, 72, 72);
+    font-size: 30px;
+    text-align: center;
+}
+.contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.form{
+    width: 700px;
+    background-color:white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 30px;
+}
+.input-form{
+    margin-bottom: 20px;
+
+}
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    vertical-align: baseline;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.btn-send{
+    background-color: rgb(16, 241, 16);
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*start footer*/
+
+.inner-footer li{ 
+    
+    margin-bottom: 15px;
+    font-size: 20px; 
+    padding:6px; 
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
